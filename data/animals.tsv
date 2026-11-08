@@ -1,0 +1,184 @@
+# What the Animals Know: the animal words looked for, decided by hand.
+# form	species	class	homograph	note
+# homograph 1: the spelling is also another word; the annotator decides each use in context.
+شیر	lion	mammal	1	also milk
+شیران	lion	mammal	0
+اسد	lion	mammal	0	Arabic
+غضنفر	lion	mammal	0	Arabic
+هژبر	lion	mammal	0
+هزبر	lion	mammal	0
+لبوه	lioness	mammal	0	Arabic labwa
+پلنگ	leopard	mammal	0
+ببر	tiger	mammal	1	also "carry!"
+یوز	cheetah	mammal	0
+گرگ	wolf	mammal	0
+ذئب	wolf	mammal	0	Arabic
+شغال	jackal	mammal	0
+شگال	jackal	mammal	0
+کلیله	jackal	mammal	0	the jackal Kalila
+دمنه	jackal	mammal	0	the jackal Dimna
+روباه	fox	mammal	0
+روبه	fox	mammal	0
+ثعلب	fox	mammal	0	Arabic
+سگ	dog	mammal	0
+کلب	dog	mammal	0	Arabic
+گربه	cat	mammal	0
+سنور	cat	mammal	0	Arabic sinnawr
+موش	mouse	mammal	0
+جرذ	mouse	mammal	0	Arabic, rat
+راسو	weasel	mammal	0
+پیل	elephant	mammal	0
+فیل	elephant	mammal	0
+اسپ	horse	mammal	0
+اسب	horse	mammal	0
+باره	horse	mammal	1	also wall, time
+بارگی	horse	mammal	0
+تکاور	horse	mammal	1	also swift (adjective)
+مرکب	horse	mammal	1	also ink, compound
+فرس	horse	mammal	0	Arabic
+سمند	horse	mammal	1	dun horse; also the colour
+مادیان	horse	mammal	0
+کره	horse	mammal	1	foal; also sphere, butter
+رخش	horse	mammal	1	Rostam's horse Rakhsh; also radiance
+شبدیز	horse	mammal	0	Khosrow Parviz's horse Shabdiz
+شبرنگ	horse	mammal	1	Siavash's horse Shabrang; also night-coloured
+بهزاد	horse	mammal	1	Siavash's horse Behzad; also a man's name
+ستور	beast of burden	mammal	0
+خر	donkey	mammal	1	also a prefix, great
+الاغ	donkey	mammal	0
+حمار	donkey	mammal	0	Arabic
+درازگوش	donkey	mammal	0
+استر	mule	mammal	0
+اشتر	camel	mammal	0
+شتر	camel	mammal	0
+ناقه	camel	mammal	0	Arabic
+جمل	camel	mammal	1	Arabic; also a sentence (pl. of jumla)
+هیون	camel	mammal	0
+بختی	camel	mammal	1	Bactrian camel; also lucky
+گاو	cattle	mammal	0
+ثور	cattle	mammal	0	Arabic; also Taurus
+گوساله	cattle	mammal	0
+شنزبه	cattle	mammal	0	the bull Shanzaba
+گاومیش	buffalo	mammal	0
+گوسفند	sheep	mammal	0
+میش	sheep	mammal	0
+بره	sheep	mammal	1	lamb; also Aries
+قوچ	sheep	mammal	0
+غرم	wild sheep	mammal	0
+بز	goat	mammal	0
+آهو	gazelle	mammal	1	also fault
+غزال	gazelle	mammal	0
+ظبی	gazelle	mammal	0	Arabic
+گوزن	deer	mammal	0
+گور	onager	mammal	1	also grave
+گورخر	onager	mammal	0
+گراز	boar	mammal	0
+خوک	pig	mammal	0
+خنزیر	pig	mammal	0	Arabic
+خرس	bear	mammal	0
+بوزینه	monkey	mammal	0
+کپی	monkey	mammal	0
+قرد	monkey	mammal	0	Arabic
+میمون	monkey	mammal	1	also auspicious
+خرگوش	hare	mammal	0
+ارنب	hare	mammal	0	Arabic
+خارپشت	hedgehog	mammal	0
+کرگ	rhinoceros	mammal	0
+کرگدن	rhinoceros	mammal	0
+نخچیر	game	mammal	0	the hunted animal, any
+دد	wild beast	mammal	0
+ددان	wild beast	mammal	0
+وحوش	wild beast	mammal	0	Arabic
+سباع	wild beast	mammal	0	Arabic, beasts of prey
+جانور	animal	animal	0
+چارپا	beast of burden	mammal	0
+چهارپا	beast of burden	mammal	0
+دام	livestock	mammal	1	also trap
+حیوان	animal	animal	0
+بهایم	animal	animal	0	Arabic, beasts
+مرغ	bird	bird	0
+مرغان	bird	bird	0
+پرنده	bird	bird	0
+طیر	bird	bird	0	Arabic
+طایر	bird	bird	0	Arabic
+سیمرغ	Simorgh	mythical	0
+عنقا	Simorgh	mythical	0	the Arabic name
+هدهد	hoopoe	bird	0
+پوپک	hoopoe	bird	0
+زاغ	crow	bird	0
+کلاغ	crow	bird	0
+غراب	crow	bird	0	Arabic
+بوم	owl	bird	1	also land
+جغد	owl	bird	0
+بوف	owl	bird	0
+کبوتر	dove	bird	0
+حمامه	dove	bird	0	Arabic
+مطوقه	dove	bird	0	the ring-dove of Kalila
+فاخته	dove	bird	0
+قمری	dove	bird	0
+بلبل	nightingale	bird	0
+عندلیب	nightingale	bird	0
+هزاردستان	nightingale	bird	0
+طوطی	parrot	bird	0
+طاووس	peacock	bird	0
+طاوس	peacock	bird	0
+باز	falcon	bird	1	also again, open
+شاهین	falcon	bird	1	also a name
+شاهباز	falcon	bird	0
+چرغ	falcon	bird	0
+باشه	hawk	bird	0
+عقاب	eagle	bird	1	also punishment (Arabic iqab)
+کرکس	vulture	bird	0
+کرگس	vulture	bird	0
+همای	homa	bird	1	the homa bird; also Queen Homay
+هما	homa	bird	1	the homa bird; also Queen Homay
+کبک	partridge	bird	0
+دراج	francolin	bird	0
+تذرو	pheasant	bird	0
+تیهو	partridge	bird	0
+بط	duck	bird	0
+مرغابی	duck	bird	0
+بوتیمار	heron	bird	0
+حواصل	heron	bird	0
+کلنگ	crane	bird	1	also pickaxe
+گنجشک	sparrow	bird	0
+خروس	cockerel	bird	0
+ماکیان	hen	bird	0
+ققنوس	phoenix	mythical	0
+فنزه	bird	bird	0	the bird Fanza of Kalila
+ماهی	fish	fish	1	also a month
+ماهیان	fish	fish	0
+سمک	fish	fish	0	Arabic
+حوت	fish	fish	0	Arabic; also Pisces
+نهنگ	crocodile	reptile	0	or sea monster
+تمساح	crocodile	reptile	0
+باخه	turtle	reptile	0
+سنگ‌پشت	turtle	reptile	0
+سلحفاة	turtle	reptile	0
+کشف	turtle	reptile	1	also discovery
+خرچنگ	crab	crustacean	0
+سرطان	crab	crustacean	1	also Cancer, the disease
+وزغ	frog	amphibian	0
+غوک	frog	amphibian	0
+مار	snake	reptile	1	also a suffix
+ماران	snake	reptile	0
+افعی	viper	reptile	0
+اژدها	dragon	mythical	0
+اژدهای	dragon	mythical	0
+اژدر	dragon	mythical	0
+اژدرها	dragon	mythical	0
+ثعبان	snake	reptile	0	Arabic
+کژدم	scorpion	arachnid	0
+گژدم	scorpion	arachnid	0
+عقرب	scorpion	arachnid	0
+عنکبوت	spider	arachnid	0
+مور	ant	insect	1	also a name, a suffix
+مورچه	ant	insect	0
+مگس	fly	insect	0
+پشه	gnat	insect	0
+زنبور	bee	insect	0
+ملخ	locust	insect	0
+کرم	worm	insect	1	also generosity, Kerman
+پروانه	moth	insect	1	also permission
+شب‌پره	bat	mammal	0
+خفاش	bat	mammal	0

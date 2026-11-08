@@ -1,0 +1,37 @@
+{
+ "_note": "Labels changed by hand after reading the passage, applied over data/annotations.jsonl by tools/shape.py.",
+ "4231": {
+  "figure": "creature",
+  "mode": "ridden",
+  "faculties": [
+   "perception",
+   "devotion"
+  ],
+  "spectrum": "constructive",
+  "evidence": "چنین گفت شبرنگ بهزاد را",
+  "why": "Siavash speaks to his horse Shabrang Behzad; the horse does not speak"
+ },
+ "1771": {
+  "is_animal": true,
+  "species": "falcon",
+  "figure": "character",
+  "mode": "guide",
+  "faculties": [
+   "speech",
+   "knowledge"
+  ],
+  "spectrum": "gratuitous",
+  "evidence": "باز پیش جمع آمد سرفراز",
+  "why": "Attar's falcon comes before the assembly of birds; not the adverb"
+ },
+ "2695": {
+  "is_animal": true,
+  "species": "lion",
+  "figure": "figure",
+  "mode": "none",
+  "faculties": [],
+  "spectrum": "none",
+  "evidence": "یکی داستان زد بر این نرّه شیر",
+  "why": "a parable told of a male lion; the second شیر in the line is milk"
+ }
+}

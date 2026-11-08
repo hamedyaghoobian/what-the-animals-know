@@ -1,0 +1,7 @@
+book/
+.env
+.venv/
+.DS_Store
+__pycache__/
+data/cache/
+.claude/
