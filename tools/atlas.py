@@ -4,7 +4,7 @@
 """
 import json, os
 
-BOOKS = ["kalila", "attar", "shahnameh", "masnavi"]
+BOOKS = ["kalila", "attar", "shahnameh", "masnavi", "marzban", "parvin"]
 FACULTIES = ["speech", "reasoning", "knowledge", "emotion", "deception", "perception", "desire", "memory", "moral", "devotion"]
 units = {u["id"]: u for u in map(json.loads, open("data/units.jsonl"))}
 mentions = {m["id"]: m for m in map(json.loads, open("data/mentions.jsonl"))}
