@@ -12,6 +12,7 @@ BOOKS = [  # key, file, title
     ("kalila", "data/kalila-ganjoor.json", "کلیله و دمنه"),
     ("attar", "../attar-conference-of-birds/data/manteq-ganjoor.json", "منطق‌الطیر"),
     ("shahnameh", "../ferdowsi-shahnameh/data/shahnameh-ganjoor.json", "شاهنامه"),
+    ("masnavi", "data/masnavi-ganjoor.json", "مثنوی معنوی"),     # last, so the units before it keep their numbers
 ]
 
 def clean(t):

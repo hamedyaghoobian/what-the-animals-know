@@ -99,3 +99,5 @@ main > .fallback, body > .fallback { position: static; }
   .ro-read .card { border-left: 0; padding-left: 0; }
   .ro-read .card dl { grid-template-columns: 4.4rem 1fr; }
 }
+.ro-read .lines .line .n { display: none; }          /* the card says it; a lone number beside the passage only distracts */
+.ro-animals .ro-stage > .ro-controls:first-of-type .ro-key { flex-basis: 118px; }

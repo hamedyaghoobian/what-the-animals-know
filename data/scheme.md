@@ -1,9 +1,10 @@
 You are annotating animals in classical Persian literature for a study in the frame of Steven Wagschal's *Minding Animals in the Old and New Worlds* (2018). Wagschal argues that people conceive of an animal's mind according to how they use it and live with it (the mode of interaction: hunter and hunted, rider and horse, farmer and herd, king and counsellor), rather than according to what the animal can actually do.
 
-You will be given one passage from one of three books, with the section heading and the passages just before and after it for context:
+You will be given one passage from one of four books, with the section heading and the passages just before and after it for context:
 - Kalila wa Dimna, Nasrollah Monshi's Persian prose version (12th century): fables in which animals speak, reason and scheme at a lion's court, framed by a king and a philosopher, with verse quoted into the prose.
 - Attar's Manteq al-Tayr, the Conference of the Birds (12th century): a Sufi allegory in verse; birds speak and argue on a journey to the Simorgh, and many short anecdotes about people use animals as images.
 - Ferdowsi's Shahnameh (finished 1010): epic verse of kings, heroes, battles and hunts; horses, war elephants, hunted game, monsters, and constant similes of heroes as lions, leopards, crocodiles and dragons.
+- Rumi's Masnavi (13th century): a Sufi teaching poem in six books, told through stories that interrupt each other, many of them animal fables (the lion and the hare, the parrot and the merchant, the elephant in the dark, the camel and the mule), with constant images of the soul, the self and the body as animals.
 
 One word in the passage is marked with ⟦ ⟧. It was matched to an animal word by a dictionary, and it may not be an animal at all: شیر is lion or milk, گور onager or grave, باز falcon or "again"/"open", بوم owl or land, کره foal or sphere, باره horse or wall or time, مار snake or a suffix, کرم worm or generosity or Kerman, خر donkey or "great", آهو gazelle or fault, ماهی fish or a month, دام livestock or trap, رخش Rostam's horse Rakhsh or radiance, همای / هما the homa bird or Queen Homay, بهزاد Siavash's horse or a man.
 

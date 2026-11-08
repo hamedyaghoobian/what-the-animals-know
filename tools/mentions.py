@@ -43,19 +43,31 @@ def find(words, lex):
 
 if __name__ == "__main__":
     lex = lexicon("data/animals.tsv")
+    # a mention keeps its number from one run to the next (the labels are keyed by it): known
+    # mentions are found by where they are, new ones are numbered after the last
+    old = {}
+    if os.path.exists(sys.argv[2]):
+        for line in open(sys.argv[2]):
+            m = json.loads(line); old[(m["unit"], m["half"], m["w"])] = m["id"]
+    nxt = max(old.values(), default=-1) + 1
     n, by = 0, Counter()
-    with open(sys.argv[2], "w") as f:
+    found = []
+    if True:
         for line in open(sys.argv[1]):
             u = json.loads(line)
             for half, text in ((0, u["text"]), (1, u.get("text2", ""))):
                 if not text: continue
                 words = text.split(" ")
                 for wi, span, e in find(words, lex):
-                    f.write(json.dumps({"id": n, "unit": u["id"], "book": u["book"], "half": half, "w": wi, "span": span,
-                                        "token": " ".join(words[wi:wi + span]), "form": e["form"], "species": e["species"],
-                                        "class": e["class"], "homograph": e["homograph"]}, ensure_ascii=False) + "\n")
+                    i = old.get((u["id"], half, wi))
+                    if i is None: i = nxt; nxt += 1
+                    found.append({"id": i, "unit": u["id"], "book": u["book"], "half": half, "w": wi, "span": span,
+                                  "token": " ".join(words[wi:wi + span]), "form": e["form"], "species": e["species"],
+                                  "class": e["class"], "homograph": e["homograph"]})
                     n += 1; by[(u["book"], e["form"])] += 1
-    print(n, "mentions")
+    with open(sys.argv[2], "w") as f:
+        for m in sorted(found, key=lambda m: m["id"]): f.write(json.dumps(m, ensure_ascii=False) + "\n")
+    print(n, "mentions,", sum(1 for m in found if m["id"] not in set(old.values())), "new")
     for book in ("kalila", "attar", "shahnameh"):
         items = sorted(((c, form) for (b, form), c in by.items() if b == book), reverse=True)
         print(book, sum(c for c, _ in items), " ".join(f"{form}:{c}" for c, form in items[:45]))

@@ -14,7 +14,7 @@ from fontTools.ttLib import TTFont
 from fontTools import subset
 
 FONT = "fonts/Amiri-Regular.ttf"
-BOOKS = ["kalila", "attar", "shahnameh"]
+BOOKS = ["kalila", "attar", "shahnameh", "masnavi"]
 GUTTER = 1.4                      # em between the halves of a couplet, as on the page
 FACULTIES = ["speech", "reasoning", "knowledge", "emotion", "deception", "perception", "desire", "memory", "moral", "devotion"]
 SPECTRUM = ["none", "anthropectomy", "species-typical", "constructive", "gratuitous"]
