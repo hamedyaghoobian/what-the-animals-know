@@ -17,7 +17,8 @@ Cognitive Historical Analysis* (Toronto, 2018). With an atlas that counts it all
 - `data/hand-check.tsv`: 60 judgements drawn at random and read against their passages: 54 agree, 2 wrong (corrected), 4 arguable.
 - `tools/shape.py`: sets every line in Amiri with HarfBuzz (Kalila's prose broken into lines), places each animal, and writes `site/data/`.
 - `tools/atlas.py`: writes `site/atlas/data.json` for the atlas.
-- `site/`: the piece (`index.html`) and the atlas (`atlas/`). Serve with `python3 -m http.server -d site`.
+- `tools/naardoon.py`: one drawing per species from [NaarDoon](https://library.eranshahr.com), Eranshahr's open library of Iranian visual elements (`data/naardoon-catalogue.json` lists its 224 animal and mythical-creature elements), cut into a silhouette in `site/data/naardoon/` with `credits.json`: 35 species, each credited to the hand that traced it and the museum that keeps the object.
+- `site/`: the piece (`index.html`) and the atlas (`atlas/`), dressed in the site's faceplate. They link the site's `/assets/main.css`, `/assets/js/faceplate.js` and `../piece.js`, so they are meant to be served from the website (`readings-otherwise/what-the-animals-know/`).
 
 ```
 uv venv .venv && uv pip install --python .venv/bin/python anthropic uharfbuzz fonttools brotli
@@ -46,5 +47,7 @@ given no mind and 3% a mind read from the horse; of the 41 horses given any mind
 
 The three texts are in the public domain; the text and headings are Ganjoor's. The judgements
 in `data/annotations.jsonl` were produced with the Claude API. Amiri is by Khaled Hosny, under the
-SIL Open Font License 1.1 (`fonts/OFL.txt`); `site/data/hand.woff2` is a subset of it. Wagschal's
-book is cited, not included.
+SIL Open Font License 1.1 (`fonts/OFL.txt`); `site/data/hand.woff2` is a subset of it. The drawings
+in `site/data/naardoon/` are from NaarDoon, which offers them to download and build with freely; each
+is the work of the contributor named in `credits.json`, traced from an object whose own rights rest with
+its museum. Wagschal's book is cited, not included.
